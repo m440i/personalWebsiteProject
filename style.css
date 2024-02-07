@@ -1,0 +1,45 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightcyan;
+}
+
+/* Header styling */
+.header {
+  background: darkcyan;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.name {
+  font-size: 36px;
+  color: white;
+}
+
+.menuNavigation {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+/* .menuNavigation ul li {
+  font-size: 22px;
+  display: inline;
+  color: white;
+} */
+.link {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+}
+/* Home Stying */
+.pageHome {
+  /* background-color: red; */
+  /* display: flex;
+  justify-content: space-between; */
+  padding: 100px 500px;
+  margin: 200;
+}
