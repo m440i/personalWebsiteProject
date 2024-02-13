@@ -25,11 +25,7 @@ body {
   display: flex;
   gap: 10px;
 }
-/* .menuNavigation ul li {
-  font-size: 22px;
-  display: inline;
-  color: white;
-} */
+
 .link {
   text-decoration: none;
   font-size: 22px;
@@ -38,8 +34,46 @@ body {
 /* Home Stying */
 .pageHome {
   /* background-color: red; */
-  /* display: flex;
-  justify-content: space-between; */
-  padding: 100px 500px;
+  padding: 25px 500px;
   margin: 200;
+  /* border: 10px solid black; */
 }
+
+/* Imagine styling */
+.imgFrmt {
+  display: flex;
+  width: 300px;
+  float: right;
+}
+.imgFrmtThree {
+  width: 300px;
+  float: left;
+}
+/* Content Styling  */
+.titleBig {
+  font-size: 32px;
+  text-align: center;
+  padding: 10px;
+  /* border: 5px solid black; */
+}
+.titleSmall {
+  font-size: 24px;
+  padding: 10px 0px;
+}
+.titleSmallRight {
+  font-size: 24px;
+  padding: 10px 0px;
+  text-align: right;
+}
+.content {
+  font-size: 18px;
+}
+.quote {
+  font-size: 22px;
+  font-style: italic;
+  padding: 200px 0px;
+}
+
+/* .right {
+  text-align: right;
+} */
