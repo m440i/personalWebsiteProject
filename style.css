@@ -77,3 +77,14 @@ body {
 /* .right {
   text-align: right;
 } */
+/* Contact page  */
+.contact {
+  /* text-align: center; */
+  display: flex;
+}
+.border {
+  /* border: 5px solid black; */
+  background-color: lightblue;
+  padding: 10px 50px;
+  margin: 0;
+}
